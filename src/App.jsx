@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Hrify-frontend/">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -34,7 +34,7 @@ function App() {
           <Route path="/opportunities" element={<Opportunities />} />
           <Route path="/prohub/Carrer" element={<Carrer />} />
           <Route path="/contact" element={<Contact />} />
-          
+
           <Route path="/pillamar" element={<Pillamar />} />
 
           <Route path="/admin" element={<Admin />} />
