@@ -36,7 +36,7 @@ export default function AdminDashboard() {
 
   const fetchJobs = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/jobs");
+      const res = await axios.get("https://hrify-backend-g2t4.onrender.com/api/jobs");
       setJobs(res.data);
     } catch (err) {
       console.error("Error fetching jobs:", err);
@@ -52,7 +52,7 @@ export default function AdminDashboard() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/jobs", {
+      await axios.post("https://hrify-backend-g2t4.onrender.com/api/jobs", {
         ...formData,
         benefits: formData.benefits.split(",").map(s => s.trim()),
         responsibilities: formData.responsibilities.split(",").map(s => s.trim()),
@@ -85,7 +85,7 @@ export default function AdminDashboard() {
   // Delete a job
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/api/jobs/${id}`);
+      await axios.delete(`https://hrify-backend-g2t4.onrender.com/api/jobs/${id}`);
       fetchJobs();
     } catch (err) {
       console.error("Error deleting job:", err);
