@@ -26,7 +26,7 @@ const JobList = ({ searchParams }) => {
   // fetch jobs
   const fetchJobs = () => {
     const query = new URLSearchParams(searchParams).toString();
-    fetch(`http://localhost:5000/api/jobs?${query}`)
+    fetch(`https://hrify-backend-g2t4.onrender.com/api/jobs?${query}`)
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);
@@ -55,7 +55,7 @@ const JobList = ({ searchParams }) => {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     try {
-      await fetch("http://localhost:5000/apply", {
+      await fetch("https://hrify-backend-g2t4.onrender.com/apply", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
