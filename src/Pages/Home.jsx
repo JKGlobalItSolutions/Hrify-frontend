@@ -269,6 +269,39 @@ function Home() {
 
 
 
+    <div
+  className="container-fluid py-5"
+  style={{
+    background: "linear-gradient(to bottom, #0081A7, #003241)",
+  }}
+>
+  <div className="container text-center">
+    <h2
+      className="fw-bold mb-3"
+      style={{ color: "#ffffff" }}
+    >
+      Reinventing the Future
+    </h2>
+
+    <p
+      className="mx-auto"
+      style={{
+        color: "#ffffff",
+        maxWidth: "900px",
+        fontSize: "16px",
+        lineHeight: "1.7",
+      }}
+    >
+      Reinventing the Future by driving innovation, embracing digital
+      transformation, and delivering forward-thinking solutions that empower
+      businesses to grow, adapt, and succeed in a rapidly evolving world.
+    </p>
+  </div>
+</div>
+
+
+
+
 
     </>
   );

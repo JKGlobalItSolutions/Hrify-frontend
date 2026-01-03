@@ -12,6 +12,8 @@ import Opportunities from "./Pages/Opportunities";
 import Admin from "./Pages/Admin";
 import Contact from "./Pages/Contact";
 import Pillamar from "./Pages/Pillamar";
+import Internship from "./Pages/Internship";
+import Referal from "./Pages/Referal";
 
 
 
@@ -29,14 +31,17 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/talent_management" element={<Talent_management />} />
-          <Route path="/sonachala" element={<Products />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/opportunities" element={<Opportunities />} />
           <Route path="/prohub/Carrer" element={<Carrer />} />
-          <Route path="/contact" element={<Contact />} />
-
+          <Route path="/prohub/internship" element={<Internship />} />
+          <Route path="/prohub/referal" element={<Referal />} />
+          
           <Route path="/pillamar" element={<Pillamar />} />
+          <Route path="/sonachala" element={<Products />} />
 
+
+          <Route path="/contact" element={<Contact />} />
           <Route path="/admin" element={<Admin />} />
         </Routes>
         <Footer />

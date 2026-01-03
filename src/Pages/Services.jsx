@@ -2,11 +2,27 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import img1 from "../assets/Services/img1.png";
 import img2 from "../assets/Services/img2.png";
 import img3 from "../assets/Services/img3.png";
+import img11 from "../assets/Services/img11.png";
+import img12 from "../assets/Services/img12.png";
+import img13 from "../assets/Services/img13.png";
 import img4 from "../assets/Services/img4.png";
 import img5 from "../assets/Services/img5.png";
 import bgimg1 from "../assets/Services/bgimg1.png";
+import React, { useEffect, useRef, useState } from "react";
+
+
 
 function Services() {
+  const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowContent(true);
+    }, 3000); // 3 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
     return (
         <>
 
@@ -126,18 +142,122 @@ function Services() {
                 <h1 style={{ color: "#015670" }}><b>What We Do</b></h1>
 
 
-                <img
-                    src={img3}
-                    alt="IT Solutions"
-                    className="img-fluid"
-                    style={{
-                        borderRadius: "10px",
-                    }}
-                />
+               
 
 
             </div>
+   <div
+      className="container"
+      style={{
+        marginTop: "80px",
+        minHeight: "500px",
+        position: "relative",
+      }}
+    >
+      {/* FIRST IMAGE */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          opacity: showContent ? 0 : 1,
+          transition: "opacity 1s ease",
+          pointerEvents: "none",
+        }}
+      >
+        <img
+          src={img3}
+          alt="IT Solutions"
+          className="img-fluid"
+          style={{
+            borderRadius: "10px",
+            maxHeight: "420px",
+            objectFit: "cover",
+          }}
+        />
+      </div>
 
+      {/* SECOND CONTENT */}
+      <div
+        style={{
+          opacity: showContent ? 1 : 0,
+          transform: showContent ? "scale(1)" : "scale(0.95)",
+          transition: "all 1s ease",
+        }}
+      >
+        <div className="row g-5">
+
+          {/* Software */}
+          <div className="col-md-4">
+            <img
+              src={img11}
+              className="img-fluid"
+              style={{
+                width: "100%",
+                height: "260px",
+                objectFit: "cover",
+                borderRadius: "4px",
+              }}
+            />
+            <h4 style={{ marginTop: "25px", color: "#0b5c75", fontWeight: 700 }}>
+              Software Development
+            </h4>
+            <p>
+              Our software development services turn your ideas into scalable,
+              efficient solutions tailored to your business needs.
+            </p>
+            <div style={{ fontSize: "26px", color: "#0b5c75" }}>→</div>
+          </div>
+
+          {/* Web */}
+          <div className="col-md-4">
+            <img
+              src={img12}
+              className="img-fluid"
+              style={{
+                width: "100%",
+                height: "260px",
+                objectFit: "cover",
+                borderRadius: "4px",
+              }}
+            />
+            <h4 style={{ marginTop: "25px", color: "#0b5c75", fontWeight: 700 }}>
+              Web Development
+            </h4>
+            <p>
+              We offer cutting-edge web development services to enhance your
+              digital presence.
+            </p>
+            <div style={{ fontSize: "26px", color: "#0b5c75" }}>→</div>
+          </div>
+
+          {/* App */}
+          <div className="col-md-4">
+            <img
+              src={img13}
+              className="img-fluid"
+              style={{
+                width: "100%",
+                height: "260px",
+                objectFit: "cover",
+                borderRadius: "4px",
+              }}
+            />
+            <h4 style={{ marginTop: "25px", color: "#0b5c75", fontWeight: 700 }}>
+              App Development
+            </h4>
+            <p>
+              We deliver innovative web development services to elevate your
+              digital presence.
+            </p>
+            <div style={{ fontSize: "26px", color: "#0b5c75" }}>→</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
 
             <div

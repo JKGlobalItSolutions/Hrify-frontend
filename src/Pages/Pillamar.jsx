@@ -116,168 +116,98 @@ function Pillamar() {
 
 
 
-            <div
-                style={{
-                    width: "100%",
-                    padding: "60px 0",
-                    backgroundColor: "#ffffff"
-                }}
-            >
-                <div className="row m-0 align-items-center">
+            <div className="container py-5">
+                <div className="row">
+                    <div className="col-12">
 
-                    {/* LEFT CONTENT */}
-                    <div className="col-lg-6 col-md-12 px-5">
-                        <h2 style={{ color: "#002319", fontWeight: "700", marginBottom: "20px" }}>
+                        <h3 className="mb-3" style={{ color: "#008961" }}>
                             Global Payroll Management
-                        </h2>
-
-                        <p style={{ color: "#000", fontSize: "16px", lineHeight: "1.7" }}>
-                            Our Global Payroll Management Software helps businesses seamlessly manage
-                            employee salaries across multiple countries with complete accuracy and
-                            compliance. Designed to handle complex payroll requirements, the software
-                            automatically aligns with local tax laws, statutory deductions, and labor
-                            regulations of each region.
-                        </p>
-
-                        <p style={{ color: "#000", fontSize: "16px", lineHeight: "1.7" }}>
-                            With a centralized, cloud-based platform, our solution streamlines payroll
-                            processing, salary calculations, tax filings, and reporting—all from a single
-                            dashboard. This improves transparency, reduces manual errors, and significantly
-                            lowers administrative workload.
-                        </p>
-
-                        <p style={{ color: "#000", fontSize: "16px", lineHeight: "1.7" }}>
-                            Built with advanced security and real-time updates, our software enables
-                            organizations to confidently manage global workforces while minimizing
-                            financial, compliance, and legal risks. Whether you’re scaling internationally
-                            or managing remote teams, our payroll solution ensures efficiency, reliability,
-                            and peace of mind.
-                        </p>
-                    </div>
-
-                    {/* RIGHT IMAGE */}
-                    <div className="col-lg-6 col-md-12 text-center">
-                        <img
-                            src={img5}
-                            alt="Global Payroll"
-                            style={{
-                                width: "100%",
-                                maxWidth: "500px",
-                                height: "auto",
-                                objectFit: "contain"
-                            }}
-                        />
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <div
-                style={{
-                    width: "100%",
-                    padding: "60px 0",
-                    backgroundColor: "#ffffff"
-                }}
-            >
-                <div className="row m-0 align-items-center">
-
-                    {/* LEFT IMAGE */}
-                    <div className="col-lg-6 col-md-12 text-center">
-                        <img
-                            src={img6}
-                            alt="Staffing Solutions"
-                            style={{
-                                width: "100%",
-                                maxWidth: "500px",
-                                height: "auto",
-                                objectFit: "contain"
-                            }}
-                        />
-                    </div>
-
-                    {/* RIGHT CONTENT */}
-                    <div className="col-lg-6 col-md-12 px-5">
-                        <h2 style={{ color: "#002319", fontWeight: "700", marginBottom: "20px" }}>
-                            Staffing Solutions
-                        </h2>
-
-                        <p style={{ color: "#000", fontSize: "16px", lineHeight: "1.7" }}>
-                            Our software solutions play a critical role in helping organizations build,
-                            scale, and optimize their digital operations. Whether it’s custom software
-                            development, web applications, mobile apps, or enterprise solutions, we
-                            deliver technology that aligns perfectly with your business goals.
-                        </p>
-
-                        <p style={{ color: "#000", fontSize: "16px", lineHeight: "1.7" }}>
-                            From startups to growing enterprises, our expert developers ensure you get
-                            the right solution at the right time. By partnering with us, businesses can
-                            streamline processes, reduce operational costs, and focus on what truly
-                            matters—growth and innovation.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div
-                style={{
-                    width: "100%",
-                    padding: "60px 0",
-                    backgroundColor: "#ffffff"
-                }}
-            >
-                <div className="row m-0 align-items-center">
-
-                    {/* LEFT CONTENT */}
-                    <div className="col-lg-6 col-md-12 px-5" >
-                        <h2 style={{ color: "#002319", fontWeight: "700", marginBottom: "20px" }}>
-                            Features
-                        </h2>
-
-                        <ul style={{ color: "#000", fontSize: "16px", lineHeight: "1.8", paddingLeft: "18px" }}>
-                            <li>Automated salary computation with customizable pay structures</li>
-                            <li>PF, ESI, TDS & statutory compliance management</li>
-                            <li>Attendance & leave integration with real-time sync</li>
-                            <li>Payslip generation and bulk salary processing</li>
-                            <li>Employee self-service portal for payslips & tax details</li>
-                            <li>Secure cloud-based access with role-based permissions</li>
-                        </ul>
-
-                        <h3 style={{ color: "#002319", fontWeight: "700", marginTop: "30px" }}>
-                            Business Benefits
                         </h3>
 
-                        <ul style={{ color: "#000", fontSize: "16px", lineHeight: "1.8", paddingLeft: "18px" }}>
-                            <li>Reduces payroll processing time significantly</li>
-                            <li>Eliminates calculation errors and compliance risks</li>
-                            <li>Improves employee trust with accurate & timely payouts</li>
-                            <li>Scales easily as your workforce grows</li>
-                            <li>Centralized payroll data for better reporting & audits</li>
-                        </ul>
-                    </div>
+                        <p>
+                            Our Payroll Management Software is designed to simplify and automate the
+                            entire payroll process with accuracy, compliance, and efficiency. It
+                            enables organizations to manage employee salaries, deductions,
+                            incentives, taxes, and statutory compliance seamlessly, ensuring timely
+                            and error-free payroll operations.
+                        </p>
 
-                    {/* RIGHT IMAGE */}
-                    <div className="col-lg-6 col-md-12 text-center">
-                        <img
-                            src={img7}
-                            alt="Payroll Features"
-                            style={{
-                                width: "100%",
-                                maxWidth: "300px",
-                                height: "auto",
-                                objectFit: "contain"
-                            }}
-                        />
-                    </div>
+                        <p>
+                            The system provides a centralized platform to calculate payroll,
+                            generate payslips, manage leave and attendance integration, and comply
+                            with government regulations. With secure data handling and real-time
+                            reporting, businesses gain better control, transparency, and confidence
+                            in their payroll processes.
+                        </p>
 
+                        <p>
+                            Our solution reduces manual effort, minimizes errors, and saves valuable
+                            time, allowing HR and finance teams to focus on strategic initiatives
+                            rather than administrative tasks.
+                        </p>
+
+                        <h4 className="mt-4" style={{ color: "#008961" }}>
+                            Benefits
+                        </h4>
+
+                        <p>
+                            By using our Payroll Management Software, businesses can ensure
+                            accuracy, compliance, and efficiency while reducing operational
+                            complexity and improving overall HR productivity.
+                        </p>
+
+                    </div>
                 </div>
             </div>
 
 
 
+  <div className="container py-5">
+      <div className="row align-items-start">
+
+        {/* LEFT SIDE – TWO IMAGES */}
+        <div className="col-md-6">
+          <div className="mb-4">
+            <img
+              src={img5}
+              alt="UI Screen 1"
+              className="img-fluid"
+              style={{
+                width: "70%",
+                borderRadius: "6px",
+              }}
+            />
+          </div>
+
+          <div>
+            <img
+              src={img6}
+              alt="UI Screen 2"
+              className="img-fluid"
+              style={{
+                width: "70%",
+                borderRadius: "6px",
+              }}
+            />
+          </div>
+        </div>
+
+        {/* RIGHT SIDE – LONG IMAGE */}
+        <div className="col-md-6 d-flex justify-content-center">
+          <img
+            src={img7}
+            alt="Profile"
+            className="img-fluid"
+            style={{
+              height: "620px",     // 👈 long image look
+              width: "auto",
+              objectFit: "cover",
+            }}
+          />
+        </div>
+
+      </div>
+    </div>
 
 
 
