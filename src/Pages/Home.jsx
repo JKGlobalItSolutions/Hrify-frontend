@@ -145,7 +145,7 @@ function Home() {
             <h4
               className="mb-4 fw-bold" // Bootstrap bold + margin bottom
               style={{
-                fontSize: "35px",
+                fontSize: "30px",
                 fontFamily: "'Poppins', sans-serif"
               }}
             >
@@ -155,7 +155,7 @@ function Home() {
             <p
               className="mb-0 px-3"
               style={{
-                fontSize: "25px",
+                fontSize: "20px",
                 lineHeight: "1.8",
                 borderBottom: "2px solid rgba(0,0,0,0.1)", // faint line
                 boxShadow: "0px 5px 10px rgba(0,0,0,0.1)", // 👈 increased height & blur
@@ -164,11 +164,11 @@ function Home() {
                 fontFamily: "'Poppins', sans-serif"
               }}
             >
-              <b>
+              
                 Our specialized digital services division, Hrifty Digital, delivers
                 exceptional digital solutions that empower clients to transform and
                 revolutionize their businesses.
-              </b>
+              
             </p>
 
           </div>
@@ -186,7 +186,7 @@ function Home() {
             <h4
               className="mb-4 fw-bold" // Bootstrap bold + margin bottom
               style={{
-                fontSize: "35px",
+                fontSize: "30px",
               }}
             >
               Staff & Talent Management
@@ -195,7 +195,7 @@ function Home() {
             <p
               className="mb-0 px-3"
               style={{
-                fontSize: "25px",
+                fontSize: "20px",
                 lineHeight: "1.8",
                 borderBottom: "2px solid rgba(0,0,0,0.1)", // faint line
                 boxShadow: "0px 5px 10px rgba(0,0,0,0.1)", // 👈 increased height & blur
@@ -203,13 +203,13 @@ function Home() {
                 paddingBottom: "5px",
               }}
             >
-              <b>
+              
                  We are a digital consulting company that believes in
               technology-driven transformation to create meaningful and lasting
               impact. Our expertise enables clients to identify, recruit, and
               place specialized talent, ensuring success today while building a
               strong foundation for the future.
-              </b>
+              
             </p>
 
           </div>
@@ -227,7 +227,7 @@ function Home() {
             <h4
               className="mb-4 fw-bold" // Bootstrap bold + margin bottom
               style={{
-                fontSize: "35px",
+                fontSize: "30px",
                 fontFamily: "'Poppins', sans-serif"
               }}
             >
@@ -237,7 +237,7 @@ function Home() {
             <p
               className="mb-0 px-3"
               style={{
-                fontSize: "25px",
+                fontSize: "20px",
                 lineHeight: "1.8",
                 borderBottom: "2px solid rgba(0,0,0,0.1)", // faint line
                 boxShadow: "0px 5px 10px rgba(0,0,0,0.1)", // 👈 increased height & blur
@@ -246,13 +246,13 @@ function Home() {
                 fontFamily: "'Poppins', sans-serif"
               }}
             >
-              <b>
+              
                  We create robust digital business frameworks through continuous
               analysis, testing, iteration, and performance monitoring to drive
               long-term success and growth. Our business consulting services go
               beyond meeting client needs by delivering a clear digital roadmap
               that enables confident, data-driven decisions.
-              </b>
+              
             </p>
 
           </div>
